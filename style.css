@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(157, 0, 15);
+}
+
+.site {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin: 20px;
+    width: 450px;
+    height: auto;
+    -webkit-box-shadow: 5px 5px 18px 8px #000000;
+    box-shadow: 5px 5px 18px 8px #000000;
+}
+
+.hero-block {
+    background-color: #d4cfcf;
+    height: 270px;
+    padding: 30px 0 0 0;
+}
+
+.hero-block h1 {
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+
+.hero-block h4 {
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+
+.image-container {
+    display: block;
+    margin: auto;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    margin-top: -70px;
+}
+
+.about-block {
+    width: auto;
+    height: 220px;
+    background-color: rgb(101, 0, 15);
+    color: ivory;
+    padding: 20px;
+}
+
+.line {
+    border-bottom: 1px solid rgb(255, 255, 255, 0.4);
+    margin: 20px;
+}
+
+.about-text {
+    margin: 20px;
+    line-height: 1.5em;
+}
+
+.recent-work-block {
+    width: auto;
+    height: 220px;
+    padding: 20px;
+    background-color: rgb(79, 0, 15);
+    color: ivory;
+}
+
+.recent-work-text {
+    margin: 0 20px;
+    line-height: 1.5em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.recent-work-text>ul li::before {
+    content: "\f058";
+    font-family: "Font Awesome 5 Free";
+    padding-right: 10px;
+    opacity: 50%;
+}
+
+.contact-block {
+    width: auto;
+    height: 220px;
+    background-color: rgb(52, 0, 15);
+    padding: 20px;
+    color: ivory;
+}
+
+.block-title {
+    padding: 0 20px;
+}
+
+.social-media-links>ul {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 20px 20px;
+}
+.social-media-links>ul li {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
