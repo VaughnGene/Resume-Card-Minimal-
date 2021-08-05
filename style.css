@@ -131,8 +131,14 @@ ul {
     padding: 10px;
     border-radius: 5px;
 }
+ul li:hover {
+    cursor: pointer;
+    color: rgb(5, 238, 255);
+    border: 1px solid rgb(5, 238, 255);
+    transition: ease-in-out 0.2s;
+}
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 450px) {
     .about-block, .contact-block, .recent-work-block {
         box-sizing: border-box;
         height: 270px;
