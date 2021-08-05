@@ -153,29 +153,45 @@ ul {
     }
     body {
         background-color: white;
-        /* font-size: 1em; */
     }
     .container {
         max-width: 600px;
         box-sizing: border-box;
     }
     .block-title {
-        width: 90px;
+        min-width: 120px;
         height: auto;
-        border-right: 1px solid rgb(255, 255, 255, 0.4);
+        text-align: right;
+        padding: 0;
     }
     .about-text {
         align-items: flex-start;
         margin: 0;
     }
-    .recent-work-block, .about-block, .contact-block {
+    .about-block {
         display: flex;
         box-sizing: border-box;
         justify-content: left;
-        padding: 50px;
+        padding: 74px 30px;
         width: 600px;
+        height: 220px;
+
     }
-    .recent-work-text {
+    .recent-work-block, .contact-block {
+        display: flex;
+        box-sizing: border-box;
+        justify-content: left;
+        padding: 86px 30px;
+        width: 600px;
+        height: 270px;
+    }
+    .recent-work-text, .about-text, .social-media-links {
+        margin: 0;
+        border-left: 1px solid rgb(255, 255, 255, 0.4);
+        min-width: 370px;
+        padding: 0 20px;
+    }
+    .social-media-links>ul {
         margin: 0;
     }
 }
